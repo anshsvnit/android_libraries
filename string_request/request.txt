@@ -1,1 +1,0 @@
-This folder has the String request code for Volley REST
