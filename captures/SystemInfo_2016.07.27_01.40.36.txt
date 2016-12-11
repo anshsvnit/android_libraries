@@ -1,0 +1,38 @@
+TASK com.example.anshul.opinion id=60
+  ACTIVITY com.example.anshul.opinion/.MainActivity 952a259 pid=2067
+    Local Activity 1027f8fb State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc en_US ?layoutDir sw360dp w360dp h567dp 480dpi nrml port finger -keyb/v/h -nav/h s.5}
+    FragmentManager misc state:
+      mActivity=com.example.anshul.opinion.MainActivity@1027f8fb
+      mContainer=android.app.Activity$1@1c03ad18
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=4629549 (20 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4de3371 V.E..... R....... 0,0-1080,1920}
+        android.widget.LinearLayout{ae8556 V.E..... ........ 0,0-1080,1776}
+          android.view.ViewStub{2d7329d7 G.E..... ......I. 0,0-0,0 #1020373}
+          android.widget.FrameLayout{241282c4 V.E..... ........ 0,75-1080,1776 #1020002 android:id/content}
+            android.widget.LinearLayout{275195ad V.E..... ........ 0,0-1080,1701}
+              android.widget.EditText{a25a0e2 VFED..CL .F...... 48,48-1032,184 #7f0c0050 app:id/userName}
+              android.widget.EditText{19d68c73 VFED..CL ........ 48,184-1032,320 #7f0c0051 app:id/password}
+              android.widget.Button{33170730 VFED..C. ........ 408,320-672,464 #7f0c0052 app:id/submit}
+        android.view.View{41edfa9 V.ED.... ........ 0,0-1080,75 #102002f android:id/statusBarBackground}
+        android.view.View{f00e92e V.ED.... ........ 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+    Looper (main, tid 1) {32037ccf}
+      Message 0: { when=+477ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 1, idling=false, quitting=false)
