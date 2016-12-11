@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
 
     String url;
 
-    //EditText item_et;
     ProgressDialog PD;
 
     @Override
@@ -86,20 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
         info = check.getAllNetworkInfo();
 
-        /*submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-               // getText();
-
-        for (int i = 0; i<info.length; i++){
-            if (info[i].getState() == NetworkInfo.State.CONNECTED){
-                Toast.makeText(getBaseContext(), "Internet is connected",
-                        Toast.LENGTH_SHORT).show();
-            }
-        }}
-        });
-*/
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,17 +101,17 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onResponse(String response) {
                                 PD.dismiss();
-                                /*try {
-                                    errorStr = response.
-                                }catch(JSONException e) {
+                                try {
+                                    errorStr = response.toString();
+                                }catch(Exception e) {
                                     e.printStackTrace();
                                 }
                                 userName.setText("");
                                 password.setText("");
-                                // CharSequence charerror = error;
+
                                 Toast.makeText(getApplicationContext(), "Successful",
                                         Toast.LENGTH_SHORT).show();
-*/
+
                             }
                         }, new Response.ErrorListener() {
                     @Override
@@ -139,41 +125,24 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     protected Map<String, String> getParams() throws AuthFailureError {
                         Map<String, String> params = new HashMap<String, String>();
-                        Log.v("Reached", "inside get params");
+
                         params.put("username", strUserName);
                         params.put("password", strPassword);
                         Log.v("Tag", "json: " + params.toString());
 
                         return params;
                     }
-                    /*@Override
-                    protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
 
-                        if (response.data == null || response.data.length == 0) {
-                            return Response.success(null, HttpHeaderParser.parseCacheHeaders(response));
-                        } else {
-                            return super.parseNetworkResponse(response);
-                        }
-                    }*/
-                    //private Response.Listener mListener ;
-
-                   /* @Override
-                    protected void deliverResponse(Integer statusCode) {
-                        mListener.onResponse();
-                    }*/
 
                 };
 
                 // Adding request to request queue
                 Log.v("Reached", "REached");
-                //Volley.newRequestQueue(getApplicationContext()).add(jsonObjectRequest);
                 MyApplication.getInstance().addToReqQueue(jsonObjectRequest);
             }});
 
 
 }
-
-
 
 
     public void initialize(){
