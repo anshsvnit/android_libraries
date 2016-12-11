@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmls="http://schemas.android.com/apk/lib/com.example.anshul.opinion"
+    xmlns:app="http://schemas.android.com/tools"
+    xmls:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id ="@+id/menu_item_1"
+       android:icon="@android:drawable/ic_menu_call"
+        android:title="New Opinion"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/check_internet"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Check Internet"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
