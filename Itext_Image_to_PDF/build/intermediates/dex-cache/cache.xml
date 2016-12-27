@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_c95fc4ade5f66d26512aa5e92ac0500476ac1617/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_a5c95d43043a00f820cf3efe8e483dfedc92753e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextg/5.5.10/247811bfc4d8f4e99c909236eadf4dfc6dfa1615/itextg-5.5.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="247811bfc4d8f4e99c909236eadf4dfc6dfa1615">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/itextg-5.5.10_b8f666e1c2549139ca373722ad4c5a2556c1ad6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.madgag/scprov-jdk15on/1.47.0.1/12e5fa71f9d623892dfc8a670133019bed819fd5/scprov-jdk15on-1.47.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="12e5fa71f9d623892dfc8a670133019bed819fd5">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/scprov-jdk15on-1.47.0.1_e5710fb281bb6ea98294cb300875bbb428e07f6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/bouncycastle/bcmail-jdk14/138/14ff2dfec8578f5f6838c4d6a77a86789afe5382/bcmail-jdk14-138.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="14ff2dfec8578f5f6838c4d6a77a86789afe5382">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/bcmail-jdk14-138_72bd905708b516fb8e2dd68610aaa2dc1974495f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c943de7cd73969db12a22a78848882be934022e7">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4b315796380153d9ded7c86310c3551f621d66a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.lowagie/itext-rtf/2.1.7/ed1cbe69ff69c6e6fa7645f51c8d25894a177e7b/itext-rtf-2.1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ed1cbe69ff69c6e6fa7645f51c8d25894a177e7b">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/itext-rtf-2.1.7_b8215e43c4fdcb3c6c333dc984b12ab36d7e431a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/bouncycastle/bcprov-jdk14/138/de366c3243a586eb3c0e2bcde1ed9bb1bfb985ff/bcprov-jdk14-138.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="de366c3243a586eb3c0e2bcde1ed9bb1bfb985ff">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/bcprov-jdk14-138_9916352f53d9b88e142ee717ad026c623f8bdf10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_50f7409facc45b3e6be0668b988497c75b4d37bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_c6699b013f23a940fc2f659c0e342c8461a6dc13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_557a98cd7e911c237ca05f901bd41d70713bd2e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_2dd213fffcec8d53286560d15ba6c237e0923a6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Downloads/Opinion2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7b48d25299fca629084e07ad5e6210ba3c10ba2d">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2e31fd9339e52a15a60df58e15307f012504b156/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.itextpdf/itext-pdfa/5.5.10/e9c27b1974db74e4fb604b69bc459e65700de702/itext-pdfa-5.5.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e9c27b1974db74e4fb604b69bc459e65700de702">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/itext-pdfa-5.5.10_357ba5ac709f193a6e128fe3875201a67b96765d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_879fa73797a76472c57fca890c0f66bde638b415/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anshul/.gradle/caches/modules-2/files-2.1/com.madgag/scpkix-jdk15on/1.47.0.1/f73d7c846609903fc93fd41c60fa32f9f8c333a8/scpkix-jdk15on-1.47.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f73d7c846609903fc93fd41c60fa32f9f8c333a8">
+        <dex dex="/home/anshul/Downloads/Opinion2/app/build/intermediates/transforms/dex/debug/folders/1000/10/scpkix-jdk15on-1.47.0.1_f8322ba468bf2d13d4ac24197673e61ae8c933e4/classes.dex" />
+    </item>
+
+</items>

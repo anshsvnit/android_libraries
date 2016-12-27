@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.example.anshul.opinion"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.madgag:scpkix-jdk15on:1.47.0.1'
+    compile 'com.itextpdf:itext-pdfa:5.5.10'
+    //compile 'com.itextpdf:itextg-pdfa:5.5.10'
+    compile 'com.lowagie:itext-rtf:2.1.7'
+    //compile 'com.itextpdf:itext-parent:1.0.0'
+    //compile 'com.itextpdf:itext-xtra:5.5.10'
+    compile 'com.itextpdf:itext-parent:1.0.0'
+    compile 'com.itextpdf:itextg:5.5.10'
+    //compile 'io.konik:itext-carriage:0.8.0'
+}
