@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity{
                     e.printStackTrace();
                 }
 
+                viewPdf();
             }
         });
     }
@@ -138,7 +139,7 @@ public class MainActivity extends AppCompatActivity{
 
         PdfWriter.getInstance(document, output);
 
-
+        Log.v("size",Integer.toString(imagesEncodedList.size()));
         document.open();
         try {
         for(int i=0;i<imagesEncodedList.size();i++) {
@@ -160,5 +161,12 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
+    private void viewPdf(){
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.fromFile(myFile), "application/pdf");
+        Log.v("View loc",Uri.fromFile(myFile).toString());
+        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+    }
 
 }
